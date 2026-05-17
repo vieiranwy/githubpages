@@ -1,0 +1,46 @@
+/* ── KEYFRAMES ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── SCROLL REVEAL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children inside a revealed grid */
+.skills-grid .reveal:nth-child(2) { transition-delay: 0.08s; }
+.skills-grid .reveal:nth-child(3) { transition-delay: 0.16s; }
+.skills-grid .reveal:nth-child(4) { transition-delay: 0.24s; }
+.skills-grid .reveal:nth-child(5) { transition-delay: 0.32s; }
+.skills-grid .reveal:nth-child(6) { transition-delay: 0.40s; }

@@ -1,0 +1,128 @@
+/* ── CONTATO ── */
+.section-contato {
+  background: var(--bg);
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+/* Contact items */
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact-icon {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: var(--accent);
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.contact-item:hover .contact-icon {
+  border-color: var(--accent);
+  background: rgba(201, 168, 76, 0.07);
+}
+
+.contact-text h4 {
+  font-size: 0.68rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.contact-text a,
+.contact-text span {
+  font-size: 0.98rem;
+  color: var(--text);
+  transition: color var(--transition);
+}
+
+.contact-text a:hover {
+  color: var(--accent);
+}
+
+/* LinkedIn button */
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.95rem 2rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  transition: background var(--transition), color var(--transition);
+}
+
+.linkedin-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.linkedin-in {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+/* Portfolio box */
+.portfolio-box {
+  height: 100%;
+}
+
+.portfolio-box-inner {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 2.75rem;
+  height: 100%;
+  transition: border-color var(--transition);
+}
+
+.portfolio-box-inner:hover {
+  border-color: var(--border-hover);
+}
+
+.portfolio-box-inner h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.85rem;
+}
+
+.portfolio-box-inner p {
+  color: var(--muted);
+  font-size: 0.93rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.7;
+}
+
+.slides-btn {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: background var(--transition);
+}
+
+.slides-btn:hover {
+  background: var(--accent2);
+}

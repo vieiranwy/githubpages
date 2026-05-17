@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --bg:        #0d0d0d;
+  --surface:   #141414;
+  --card:      #1a1a1a;
+  --accent:    #c9a84c;
+  --accent2:   #e8c97a;
+  --text:      #f0ede6;
+  --muted:     #777;
+  --border:    rgba(201, 168, 76, 0.18);
+  --border-hover: rgba(201, 168, 76, 0.55);
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  /* Spacing */
+  --section-pad-x: 4rem;
+  --section-pad-y: 6rem;
+
+  /* Transitions */
+  --transition: 0.3s ease;
+  --transition-slow: 0.6s ease;
+}

@@ -1,0 +1,24 @@
+/* ── FOOTER ── */
+footer {
+  text-align: center;
+  padding: 2.5rem var(--section-pad-x);
+  border-top: 1px solid var(--border);
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4rem;
+}
+
+.footer-copy strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.footer-sub {
+  font-size: 0.75rem;
+  color: rgba(119, 119, 119, 0.5);
+  letter-spacing: 1px;
+}
